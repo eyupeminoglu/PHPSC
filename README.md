@@ -7,6 +7,7 @@ Write code easily with PHP
 
 ### USAGE
     ```php
+    
     <?php
         $php = new PHPSC();
         $str = "TeSt"; //example string
@@ -39,7 +40,9 @@ Write code easily with PHP
 
         /* shuffle string */
         echo $php->shuffleString($str);
-    ?>```
+    ?>
+    
+    ```
     
 
 
