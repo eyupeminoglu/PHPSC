@@ -59,16 +59,6 @@ class PHPSC{
 	}
 	
 	/*
-		Validating a Domain address
-	*/
-	public function isDomain($domain){
-		if(filter_var($domain, FILTER_VALIDATE_DOMAIN)) {
-			return true;
-		}
-		return false;
-	}
-	
-	/*
 		Validating a IP address
 	*/
 	public function isIp($ip){
