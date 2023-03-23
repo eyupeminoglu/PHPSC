@@ -9,7 +9,7 @@ Write code easily with PHP
 
     <?php
         $php = new PHPSC();
-        $str = "TeSt";
+        $str = "TeSt"; //example string
         echo $php->reverse($str);
         echo $php->lowerCase($str);
         echo $php->upperCase($str);
