@@ -39,7 +39,7 @@ Write code easily with PHP
 
         /* shuffle string */
         echo $php->shuffleString($str);
-    ?>
+    ?>```
     
 
 
