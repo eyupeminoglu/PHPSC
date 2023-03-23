@@ -5,7 +5,7 @@ Write code easily with PHP
 
 - You write cleaner code
 
-####USAGE
+### USAGE
 
     <?php
         $php = new PHPSC();
