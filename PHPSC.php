@@ -49,7 +49,7 @@ class PHPSC{
 	//Validate filters
 	
 	/*
-		Validating a Email address
+		Validating an Email address
 	*/
 	public function isEmail($email){
 		if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -59,7 +59,7 @@ class PHPSC{
 	}
 	
 	/*
-		Validating a IP address
+		Validating an IP address
 	*/
 	public function isIp($ip){
 		if(filter_var($ip, FILTER_VALIDATE_IP)) {
@@ -79,7 +79,7 @@ class PHPSC{
 	}
 	
 	/*
-		Validating a URL
+		Validating an URL
 	*/
 	public function isUrl($url){
 		if(filter_var($url, FILTER_VALIDATE_URL)) {
