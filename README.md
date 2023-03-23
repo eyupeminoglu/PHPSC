@@ -43,9 +43,9 @@ Write code easily with PHP
     
 
 
-## Support
+## Support or Feedback
 
-Email: info@eyups.net for support
+Email: info@eyups.net for support or feedback
 
 ## Lisans
 
