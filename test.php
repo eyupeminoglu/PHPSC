@@ -30,5 +30,4 @@ echo $php->alphanum($str2);
 
 /* shuffle string */
 echo $php->shuffleString($str);
-
 ?>
