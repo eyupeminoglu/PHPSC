@@ -6,7 +6,7 @@ Write code easily with PHP
 - You write cleaner code
 
 ### USAGE
-
+    ```php
     <?php
         $php = new PHPSC();
         $str = "TeSt"; //example string
