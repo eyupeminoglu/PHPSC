@@ -5,9 +5,7 @@ Write code easily with PHP
 
 - You write cleaner code
 
-### USAGE
-    ```php
-    
+### USAGE    
     <?php
         $php = new PHPSC();
         $str = "TeSt"; //example string
@@ -41,9 +39,6 @@ Write code easily with PHP
         /* shuffle string */
         echo $php->shuffleString($str);
     ?>
-    
-    ```
-    
 
 
 ## Support or Feedback
