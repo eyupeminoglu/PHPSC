@@ -93,13 +93,13 @@ class PHPSC{
 	*/
 	public function alphanum($string, $filter = ""){
 		$h = $this->length($string);
-        for($a = 0; $a < $h; $a++) {
-            $i = ord($string[$a]);
-            if( ($i==46) || ($i==64) || ($i==95) || ($i > 47 && $i < 58) || ($i > 64 && $i < 91) || ($i > 96 && $i < 123) ) {
+		for($a = 0; $a < $h; $a++) {
+			$i = ord($string[$a]);
+			if( ($i==46) || ($i==64) || ($i==95) || ($i > 47 && $i < 58) || ($i > 64 && $i < 91) || ($i > 96 && $i < 123) ) {
 				$filter .= $string[$a];
 			}    
-        }
-        return $filter;
+		}
+		return $filter;
 	}
 	
 	public function shuffleString($value){
