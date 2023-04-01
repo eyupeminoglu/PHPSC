@@ -30,4 +30,7 @@ echo $php->alphanum($str2);
 
 /* shuffle string */
 echo $php->shuffleString($str);
+
+/* Generate Random number with digits */
+echo $php->generateRandomNumber(5); //14374
 ?>
