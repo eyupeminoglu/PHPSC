@@ -38,6 +38,9 @@ Write code easily with PHP
 
         /* shuffle string */
         echo $php->shuffleString($str);
+        
+        /* Generate Random number with digits */
+        echo $php->generateRandomNumber(5); //14374
     ?>
 
 
