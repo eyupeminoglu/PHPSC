@@ -109,5 +109,10 @@ class PHPSC{
 		return str_shuffle($value);
 	}
 	
+	public function generateRandomNumber($digit){
+		$min = pow(10, $digit-1);
+        	$max = pow(10, $digit)-1;
+       		return rand($min, $max);
+	}
 }
 ?>
